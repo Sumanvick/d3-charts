@@ -1,0 +1,59 @@
+[{
+    "name": "Comp 1",
+    "strength": 1500,
+    "level": 1,
+    "multilevel": true,
+    "drilldown": [
+        {
+            "name": "Male",
+            "count": 800,
+            "level": 2,
+            "multilevel": false
+        },
+        {
+            "name": "Female",
+            "count": 700,
+            "level": 2,
+            "multilevel": false
+        }
+    ]
+  },
+  {
+    "name": "Comp 2",
+    "strength": 2000,
+    "level": 1,
+    "multilevel": true,
+    "drilldown": [{
+        "name": "Male",
+        "count": 1200,
+        "level": 2,
+        "multilevel": false
+      },
+      {
+        "name": "Female",
+        "count": 800,
+        "level": 2,
+        "multilevel": false
+      }
+    ]
+  },
+  {
+    "name": "Comp 3",
+    "strength": 3000,
+    "level": 1,
+    "multilevel": true,
+    "drilldown": [{
+        "name": "Male",
+        "count": 1200,
+        "level": 2,
+        "multilevel": false
+      },
+      {
+        "name": "Female",
+        "count": 1800,
+        "level": 2,
+        "multilevel": false
+      }
+    ]
+  }
+]

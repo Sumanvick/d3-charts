@@ -1,0 +1,51 @@
+{
+    "graphData": {
+        "type": "bar-column",
+        "level": 1,
+        "data": [{
+            "name": "Comp 1",
+            "value": 1500,
+            "multilevel": true,
+            "drilldown": {
+                "type": "pie",
+                "level": 2,
+                "data": [{
+                    "name": "Male",
+                    "value": 800,
+                    "level": 2,
+                    "multilevel": false
+                  },
+                  {
+                    "name": "Female",
+                    "value": 700,
+                    "level": 2,
+                    "multilevel": false
+                  }
+                ]
+            }
+          },
+          {
+            "name": "Comp 2",
+            "value": 2000,
+            "multilevel": true,
+            "drilldown": {
+                "type": "pie",
+                "level": 2,
+                "data": [{
+                    "name": "Male",
+                    "value": 1200,
+                    "level": 2,
+                    "multilevel": false
+                  },
+                  {
+                    "name": "Female",
+                    "value": 800,
+                    "level": 2,
+                    "multilevel": false
+                  }
+                ]
+            }
+          }
+        ]
+    }
+}
