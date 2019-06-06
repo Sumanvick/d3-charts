@@ -1,9 +1,12 @@
 <h1>D3 Chart</h1>
-<button 
+<button
     *ngIf="currentLevel>1"
     (click)="controlLevel($event)">Back</button>
+<button
+    *ngIf="currentLevel>0"
+    (click)="controlBasic($event)">BasicLine</button>
 <div class="graph-view display-inline">
-    <app-bar-chart 
+    <app-bar-chart
         *ngIf="data && currentLevel == 1"
         [data]="data | async"
         [valueKey]="barChartValueKey"
@@ -15,6 +18,8 @@
         [valueKey]="pieChartValueKey"
         [labelKey]="pieChartLabelKey"
         (pieClick)="handlePieClick($event)"></app-pie-chart>
+    <app-basic-line
+        *ngIf="currentLevel == 3"></app-basic-line>
 </div>
 
 <pre class="display-inline"> data - {{(data | async) | json}}</pre>

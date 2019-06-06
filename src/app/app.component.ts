@@ -32,8 +32,13 @@ export class AppComponent {
     console.log('pie clicked...', pieData);
   }
 
+  controlBasic(lineData) {
+    this.currentLevel = 3;
+    console.log('line clicked...', lineData);
+  }
+
   controlLevel(e) {
-    this.currentLevel -= 1;
+    this.currentLevel = 1;
   }
 
   // _reFilterData(){}
